@@ -1,0 +1,22 @@
+# Build output
+build/
+biomorph
+biomorph_tests
+
+# Fortran artifacts (outside build/)
+*.o
+*.mod
+*.smod
+
+# Local scratch and temp files
+.scratch/
+
+# macOS
+.DS_Store
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+.vscode
